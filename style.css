@@ -1,0 +1,101 @@
+
+body{
+    background-color: rgb(211, 217, 230);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(40, 62, 109);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box{
+    width: 299px;
+    height: 298px;
+    display: flex;
+    flex-wrap: wrap;   
+
+}
+
+.square{
+    width: 98px;
+    height: 98px;
+    border: 1px rgb(37, 59, 105) solid;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(40, 62, 109); 
+}
+
+.square:hover{
+    background-color: rgb(182, 191, 212);
+}
+
+h2{
+    color: rgb(40, 62, 109);
+}
+
+#play-again{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(37, 59, 105);
+    color: white;
+    border: none;
+    border-radius: 5%;
+    margin: 30px;
+    transition-duration: 0.4s;
+
+}
+
+#play-again:focus{
+    outline: none;
+}
+#play-again:hover{
+    background-color: rgb(84, 104, 146);
+}
+
+
+
+.one{
+    border-top: none;
+    border-left: none;
+}
+
+.two{
+    border-top: none;
+}
+
+.three{
+    border-right: none;
+    border-top: none;
+}
+
+.four{
+    border-left: none;
+}
+
+.six{
+    border-right: none;
+}
+
+.seven{
+    border-left: none;
+    border-bottom: none;
+}
+
+.eight{
+    border-bottom: none;
+}
+
+.nine{
+    border-right: none;
+    border-bottom: none;
+}
